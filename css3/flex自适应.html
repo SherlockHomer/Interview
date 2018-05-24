@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" content="float自适应布局">
+    <title>左右200中自适应间隙20</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing:border-box;
+        }
+        html,body{
+            height:100%;
+        }
+        body{
+            padding:20px;
+            display:flex;
+        }
+        aside,main{
+
+        }
+        aside{
+            width:200px;
+            background-color:#000;
+        }
+        main{
+            flex:1;
+            margin:0 20px;
+            background-color:#ff4433;
+        }
+    </style>
+</head>
+<body>
+    <aside></aside>
+    <main></main>
+    <aside></aside>  
+</body>
+</html>
